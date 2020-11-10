@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Verde Em Chamas</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="assets/icon/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b3a3f1bf7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="JS/scripts.js"></script>
+
+    <header>
+        <div class="menuUp">
+            <div class=menuMain>
+                <a class="menuLg" href="index.html">
+                    <img src="assets/img/logo.png" alt="Logo" title="Logo de árvore em chamas">
+                    <h1>Portal Verde Em Chamas</h1>
+                </a>
+
+                <div class="menuBtns">
+                    <div class="searchSetup">
+                        <form class="search" action="#" method="submit">
+                            <input type="search" name="searchMenu" id="search" placeholder="Pesquise aqui" size="12">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>   
+                    <div class="buttonMenu">
+                    <a href="pages/forms/index.html">Quem somos?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menuDown">
+            <nav>
+                <ul>
+                    <li class="activePage"><a href="#">Home</a></li>
+                    <li><a href="pages/reports/index.html">Reportagens</a></li>
+                    <li><a href="pages/forms/index.html">Plante uma Árvore</a></li>
+                    <li><a href="pages/reviews/index.html">Críticas</a></li>
+                    <li><a href="pages/TIVerdeBD/index.html">TI Verde - BD</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="sliderHome">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/img/Slider/Billie2.png" alt="Billie Eilish critica queimadas em música 2"></div>              
+                <div class="swiper-slide"><img src="assets/img/Slider/Queimada1.png" alt="Queimada 1"></div>
+                <div class="swiper-slide"><img src="assets/img/Slider/Queimada2.png" alt="Queimada 2"></div>
+                <div class="swiper-slide"><img src="assets/img/Slider/Queimada3.png" alt="Queimada 3"></div>
+                <div class="swiper-slide"><img src="assets/img/Slider/Queimada4.png" alt="Queimada 4"></div>
+                <div class="swiper-slide"><img src="assets/img/Slider/Queimada5.png" alt="Queimada 5"></div>              
+                <div class="swiper-slide"><img src="assets/img/Slider/Queimada6.png" alt="Queimada 6"></div>
+                <div class="swiper-slide"><img src="assets/img/Slider/Billie1.png" alt="Billie Eilish critica queimadas em música 1"></div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 200,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+        <img class="seta" src="assets/img/tri_neon.png" alt="Seta para baixo">
+    </section>
+
+    <section class="vidsSec">
+        <div class="homeVid1">
+            <iframe src="https://www.youtube.com/embed/fmK4raw1pO8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                Durante os últimos meses é possível ver a 
+                devastação das queimadas em diversos lugares, um 
+                deles sendo o Pantanal. Os animais da região estão 
+                em perigo, já que enfrentam a desidratação, fome e 
+                machucados, por conta da intensidade do fogo, 
+                mesmo assim há grupos de voluntários e veterinários 
+                que se dispõem a cuidar desses animais e preservar a esperança.
+
+            </p>
+        </div>
+        <div class="homeVid2">
+            <p>
+                Não há mudança do dia para a noite, com o passar do tempo essas situações, como a destruição de diversas árvores, pode se tornar algo normal por não conseguimos ver/perceber com clareza as mudanças. Uma pequena mudança em um ecossistema e pode alterá-lo drasticamente e a ação humana é um grande estopim para as queimadas, seja por conta das mudanças climáticas decorrentes de fábricas a até atos ilegais.
+
+            </p>
+            <iframe src="https://www.youtube.com/embed/WxGwXKENdB8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+        </div>
+    </section>
+
+    <section class="graphicsHome">
+        <div class="graphicContainer">
+            <img src="assets/graphic/Gráfico1.jpg" alt="Gráfico 1">
+            <p>
+                Representa a quantidade de focos por bioma em 2020 (até o mês de outubro, já que o ano ainda não acabou), baseando-se em dados do INPE (Instituto Nacional de Pesquisas Espaciais). Os dados informam que: A Amazônia possui 92.626 focos, Cerrado 59.402, Pantanal 21.105, Mata Atlântica 16.501, Caatinga 9.840 e o Pampa 1.602.
+            </p>
+        </div>
+        <div class="graphicContainer">
+            <img src="assets/graphic/Gráfico3.jpg" alt="Gráfico 2">
+            <p>
+                Representa a quantidade da área devastada pelas queimadas em cada bioma em 2020 (até o mês de setembro), baseando-se em dados do INPE. Os dados informam que: A Amazônia possui 62.311 km de sua área devastada, Caatinga 7.775 km, Cerrado 102.390 km, Mata Atlântica 15.055 km, Pampa 6.044 km e o Pantanal 32.910 km.
+            </p>
+        </div>
+        <div class="graphicContainer2">
+            <div class="gc21">
+                <img src="assets/graphic/Gráfico4.jpg" alt="Gráfico 3">
+                <p>
+                    Representa a área total devastada pelas queimadas nos anos de 2015 a 2020 (levando em conta os meses de janeiro a setembro), baseando-se em dados do INPE. Os dados informam que: Em 2015 houve 195.230 km devastados, 2016 houve 209.334 km, 2017 houve 207.118 km, 2018 houve 133.977 km, 2019 houve 224.257 km e 2020 houve 226.485.
+                </p>
+            </div>
+            <div class="gc22">
+                <img src="assets/graphic/Gráfico2.jpg" alt="Gráfico 4">
+                <p>
+                    Representa a quantidade de focos por região em 2020, baseando-se em dados do INPE. Os dados informam que: O Norte possui 82.331 focos, Nordeste 31.613, Centro-Oeste 62.648, Sudeste 15.401 e o Sul 9.083.
+                </p>
+            </div>
+        </div>
+        <h1>Dica: Confira em <a href="pages/reports/index.html">Reportagens</a> as últimas notícias sobre queimadas no Brasil.</h1>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="people">
+                <div class="person">
+                    <a target="_blank" href="https://www.instagram.com/alic_primo/">
+                        <img src="assets/img/pLyce.png" alt="Alice Primo">
+                    </a>
+                    <div>
+                        <h2>Alice Primo</h2>
+                        <h4>RM:20012</h4>
+                    </div>
+                </div>
+                <div class="person">
+                    <a target="_blank" href="https://www.instagram.com/gabrielzklark/">
+                        <img src="assets/img/pGaab.png" alt="Gabriel Vinícius">
+                    </a>
+                    <div>
+                        <h2>Gabriel Vinícius</h2>
+                        <h4>RM:20143</h4>
+                    </div>
+                </div>
+                <div class="person">
+                    <a target="_blank" href="https://www.instagram.com/matheusgb__15/">
+                        <img src="assets/img/pMath.png" alt="Matheus Garcia">
+                    </a>
+                    <div>
+                        <h2>Matheus Garcia</h2>
+                        <h4>RM:20024</h4>
+                    </div>
+                </div>
+                <div class="person">
+                    <a target="_blank" href="https://www.instagram.com/rafaelaraas/">
+                        <img src="assets/img/pRafa.png" alt="Rafaela Araújo">
+                    </a>
+                    <div>
+                        <h2>Rafaela Araújo</h2>
+                        <h4>RM:20136</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="peopleInsta">
+                <ul>
+                    <li><a target="_blank" href="https://www.instagram.com/alic_primo/">@alic_primo</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/gabrielzklark/">@gabrielzklark</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/matheusgb15/">@matheusgb__15</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/rafaelaraas/">@rafaelaraas</a></li>
+                </ul>
+            </div>
+            <a class="lgETEC" target="_blank" href="https://www.etecguarulhos.com.br/">
+                <img src="assets/img/logo_etec_gru.png" alt="ETEC Guarulhos" title="ETEC GRU">
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
